@@ -1,0 +1,51 @@
+.note {
+    background-color: #4E4FEB;
+    border-radius: 10px;
+    color: #EEEEEE;
+    padding: 15px;
+    min-height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    word-wrap: break-word;
+}
+
+.note_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.note textarea {
+    white-space: pre-wrap;
+    background: transparent;
+    border: none;
+    color: #EEEEEE;
+    resize: none;
+    font-size: 18px;
+}
+
+.note ::placeholder{
+    color: #EEEEEE;
+}
+
+.note textarea:focus {
+    outline: none;
+}
+
+.note_save {
+    background-color: #068FFF;
+    transition: 0.2s ease-in-out;
+    border: 0px;
+    border-radius: 5px;
+    color: #000000;
+    padding: 4px 10px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.note_save:hover {
+    background: #EEEEEE;
+    color: black;
+}
